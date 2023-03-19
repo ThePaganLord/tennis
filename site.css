@@ -1,0 +1,100 @@
+.navbar {
+  /*background:#1b4297;*/
+  background: #1C4596 !important;
+  border: 0;
+  font-family: "Arial", serif;
+  color: white;
+}
+.navbar-collapse{
+	color: black;
+}
+.navbar-nav li a{
+	color: white !important;
+	font-weight: bold;
+	background-color:: #143271;
+}
+.navbar-nav li a:hover {
+    background-color: #143271;
+	color: white;
+}
+
+.navbar-nav li .dropdown-menu {
+    background-color: #1b4297;
+}
+
+.dropdown-menu, .nav-link,
+.icon-bar,
+.navbar .navbar-nav > .active > a, 
+.navbar .navbar-nav > .active > a:focus, 
+.navbar .navbar-nav > .active > a:hover {
+	color: #EC8923 !important;
+	background-color: #3E61A6 !important;
+	bottom:0;
+}
+
+.navbar-inverse .navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.open>a:focus, 
+.navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: #1b4297;
+    color: white;
+}
+
+.navbar-inverse{
+	color: white !important;
+}
+.navbar-toggle{
+	color:white !important;
+	background-color: #2863cb;
+}
+.container{
+	font-family: "Arial", serif;
+}
+.borderless table, .borderless tr, .borderless td, .borderless th {
+	border: none;
+	padding: 5px;
+}
+.table, tr, td, th{
+	padding:5px;
+}
+
+.button {
+  background-color: #143271;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #143271;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.headings {
+  color: white !important;
+  font-weight: bold;
+}
+.heading {
+	font-weight: bold;
+}
+.colheadings {
+  color: black !important;
+  font-weight: bold;
+}

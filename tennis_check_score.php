@@ -253,8 +253,6 @@ if($new_score == 5){
 	$return_scores=CheckWinner($update_player, $new_score);
 }
 
-
-$size_return_scores=sizeof($return_scores);
 $player_key = array_keys($return_scores);
 for($i=0; $i < count($player_key); ++$i) {
 	$player_desc=$player_key[$i];
